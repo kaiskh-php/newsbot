@@ -10,8 +10,8 @@ import os
 nltk.download('punkt')
 
 # ================== CONFIG ==================
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+BOT_TOKEN = os.getenv("8501088953:AAG-zXQRokaJ7sK3nFXkiTJN7v6aRgmAHwk")
+CHAT_ID = os.getenv("@spotnews_world_ar")
 MAX_SUMMARY_SENTENCES = 3
 # ============================================
 
@@ -76,3 +76,4 @@ def run_bot():
 while True:
     run_bot()
     time.sleep(1200)  # 20 minutes
+
